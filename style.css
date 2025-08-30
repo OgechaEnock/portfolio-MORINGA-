@@ -1,0 +1,33 @@
+/*Page style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 1rem 2rem;
+
+}
+.logo {
+    color: chocolate;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+
+}
+#navLinks {
+    color: black;
+}
