@@ -85,12 +85,14 @@ body {
   border-radius: 20px;
   background-color: aqua;
   margin-right: 50%;
+  display: flex;
 }
 
 .heading {
   color: #b13535;
-  font-weight: 200;
+  font-weight: 600;
   font-style: italic;
+  margin-bottom: 15px;
 }
 
 #Projects {
@@ -110,7 +112,17 @@ body {
  
 footer{
   background-color: #c7bdbd;
-  border-radius: 10
-
-  ;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 20px;
+}
+section {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid rgb(201, 102, 102);
+  border-radius: 20px;
+  background-color: aqua;
+  max-width: 600px;
+  text-align: center;
 }
