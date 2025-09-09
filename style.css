@@ -21,6 +21,7 @@ body {
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .navlinks {
@@ -68,51 +69,25 @@ body {
     display: block;
   }
 }
-.container{
-  background-color: ;
-}
-
 .button {
-  border-radius: 4%;
+  border-radius: 6px;
   color: #4a1010;
-  margin: auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid #4a1010;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s;
 }
-
-#about {
-  border: 2px solid rgb(201, 102, 102);
-  padding: 20px;
-  margin: 20px;
-  width: 400px;
-  text-align: center;
-  font-size: larger;
-  border-radius: 20px;
-  background-color: aqua;
-  margin-right: 50%;
-  display: flex;
+.button:hover {
+  background: #e63946;
+  color: white;
 }
-
 .heading {
   color: #b13535;
   font-weight: 600;
   font-style: italic;
   margin-bottom: 15px;
 }
-
-#Projects {
-  border: 2px solid rgb(201, 102, 102);
-  padding: 20px;
-  margin: 20px;
-  width: 300px;
-  text-align: center;
-  font-size: larger;
-  border-radius: 20px;
-  background-color: aqua;
-  margin-left: 50%;
-  align-items: center;
-  height: 20;
-  
-}
- 
 footer{
   background-color: #c7bdbd;
   border-radius: 10px;
@@ -128,4 +103,18 @@ section {
   background-color: aqua;
   max-width: 600px;
   text-align: center;
+}
+footer .socials {
+  margin-top: 10px;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4a1010;
+  transition: color 0.3s;
+}
+
+footer .socials a:hover {
+  color: #e63946;
 }
