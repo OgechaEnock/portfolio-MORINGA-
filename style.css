@@ -14,7 +14,9 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #c7bdbd;
-  padding: 1rem 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 20px;
 }
 
 .logo {
@@ -116,5 +118,5 @@ footer .socials a {
 }
 
 footer .socials a:hover {
-  color: #e63946;
+  color: #4ae639;
 }
